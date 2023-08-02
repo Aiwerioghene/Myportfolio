@@ -1,9 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Navbar/Navbar.jsx';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
+      <Navbar />
       
     </div>
   );
