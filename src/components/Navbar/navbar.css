@@ -1,3 +1,7 @@
 .navbar{
     background-color: aqua;
 }
+
+.navbar-toggler-icon{
+    margin-left: auto;
+}
