@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import './navbar.css';
-import me from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/me.jpg'
-import git from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/git.jpg'
-import linkedin from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/linkedin.jpg'
-import twitter from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/twitter.jpg'
+import me from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/me.jpg';
+import git from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/git.jpg';
+import linkedin from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/linkedin.jpg';
+import twitter from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/assest/twitter.jpg';
+
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
@@ -13,20 +14,39 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo"><img src={me} alt="me"/> </div>
+      <div className="logo"><img src={me} alt="me" /></div>
       <div className={`nav-links ${showMenu ? 'show' : ''}`}>
         <ul>
           <li>
-            <a href="#home"><img src={git} alt="git" /></a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#about"> <img src={twitter} alt="twitter" /></a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#services"><img src={linkedin} alt="linkedIn" /></a>
+            <a href="#portfolio">Portfolio</a>
           </li>
         </ul>
+      </div>
 
+      <div className="contact-logo">
+        <ul>
+          <li>
+            <a href="https://github.com/daysuwaa" target="_blank" rel="noopener noreferrer">
+              <img src={git} alt="git" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">
+              <img src={twitter} alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <img src={linkedin} alt="linkedIn" />
+            </a>
+          </li>
+        </ul>
       </div>
 
       <div className="burger" onClick={toggleMenu}>
