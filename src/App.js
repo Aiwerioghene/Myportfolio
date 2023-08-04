@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import Navbar from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Navbar/Navbar.jsx';
+import Home from '//Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Home/Home.jsx';
+import About from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/About/About.jsx';
+import Projects from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Projects/Projects.jsx';
+import Contacts from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Contacts/Contacts.jsx';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
+      <Contacts />
+      
     </div>
   );
 }
