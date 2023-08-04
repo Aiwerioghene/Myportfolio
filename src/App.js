@@ -3,7 +3,7 @@ import Navbar from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/comp
 import Home from '//Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Home/Home.jsx';
 import About from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/About/About.jsx';
 import Projects from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Projects/Projects.jsx';
-import Contacts from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Contacts/Contacts.jsx';
+import Contact from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Contact/Contact.jsx';
 function App() {
   return (
     <div className='App'>
@@ -11,7 +11,7 @@ function App() {
       <Home />
       <About />
       <Projects />
-      <Contacts />
+      <Contact />
       
     </div>
   );
