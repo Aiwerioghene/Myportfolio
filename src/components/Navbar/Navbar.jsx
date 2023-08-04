@@ -15,19 +15,21 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="logo"><img src={me} alt="me" /></div>
+    
       <div className={`nav-links ${showMenu ? 'show' : ''}`}>
-        <ul>
+        <ul className={`nav-dropdown ${showMenu ? 'active' : ''}`}>
           <li>
-            <a href="#home">Home</a>
+            <a href="#home" onClick={toggleMenu}>Home</a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about"onClick={toggleMenu}>About</a>
           </li>
           <li>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#portfolio"onClick={toggleMenu}>Portfolio</a>
           </li>
         </ul>
       </div>
+
       <div className="contact-logo">
         <ul>
           <li>
@@ -46,7 +48,6 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        
       </div>
 
       <div className="burger" onClick={toggleMenu}>
@@ -59,3 +60,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+

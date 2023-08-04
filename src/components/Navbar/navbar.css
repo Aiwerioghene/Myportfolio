@@ -71,15 +71,31 @@
   /* Media Query for Small Screens */
   @media screen and (max-width: 768px) {
     .nav-links {
-      display: none;
-      flex-direction: column;
-      align-items: center;
+        display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: black; /* Add a background color to the dropdown */
+    position: absolute;
+    top: 60px; /* Adjust the top position based on your layout */
+    right: 0;
+    width: 100%;
     }
   
     .nav-links.show {
       display: flex;
     }
-  
+    .nav-links li {
+        margin: 10px 0; /* Add some vertical spacing between the links */
+      }
+
+      .nav-links a {
+        text-align: center; /* Center the links in the dropdown */
+        display: block; /* Display links as block elements to occupy full width */
+        padding: 10px;
+        border-bottom: 2px solid transparent;
+        transition: border-bottom 0.3s ease;
+      }
+
     .contact-logo img {
       display: block;
     }
@@ -97,6 +113,7 @@
       background-color: #fff;
       transition: all 0.3s linear;
     }
+    
   
     .burger .active:nth-child(1) {
       transform: rotate(-45deg) translate(-5px, 6px);
