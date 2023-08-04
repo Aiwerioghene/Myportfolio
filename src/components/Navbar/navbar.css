@@ -29,6 +29,7 @@
     color: white;
     font-size: 16px;
     padding: 10px;
+    font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease;
   }
@@ -46,15 +47,27 @@
   }
   
   .logo img {
-    width: 30px;
+    width: 40px;
+    padding-left: 20px;
   }
+
   
   li a img {
-    width: 35px;
-    height: 35px;
-    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .contact-logo{
+    padding-left: 0px;
+  }
+
+  li a :hover{
+    border-bottom: 4px solid yellow;
   }
   
+
   /* Media Query for Small Screens */
   @media screen and (max-width: 768px) {
     .nav-links {
@@ -66,10 +79,6 @@
     .nav-links.show {
       display: flex;
     }
-  
-    /* .nav-links a{
-          display: none;
-      } */
   
     .contact-logo img {
       display: block;

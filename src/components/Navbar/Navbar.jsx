@@ -28,7 +28,6 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
-
       <div className="contact-logo">
         <ul>
           <li>
@@ -47,6 +46,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+        
       </div>
 
       <div className="burger" onClick={toggleMenu}>
