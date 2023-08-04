@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Navbar from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Navbar/Navbar.jsx';
 import Home from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/Home/Home.jsx';
 import About from '/Users/adesuwa/Desktop/my-react-app/react-portfolio/src/components/About/About.jsx';
@@ -9,6 +10,9 @@ function App() {
     <div className='App'>
       <div className='gradient__bg'></div>
       <Navbar />
+      <br></br>
+      <br></br>
+      <br></br>
       <Home />
       <About />
       <Projects />
