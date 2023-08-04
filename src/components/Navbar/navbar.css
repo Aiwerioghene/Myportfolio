@@ -1,138 +1,114 @@
-
+/* Navbar container */
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: black;
-    padding: 20px;
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  flex: 1; /* Take up the available space and push the nav links to the center */
+  justify-content: center; /* Center the nav links horizontally */
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 50px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.nav-links a:hover {
+  border-bottom: 4px solid yellow;
+}
+
+/* Contact Icons */
+.contact-logo ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo img {
+  width: 45px;
+  padding-left: 20px;
+}
+
+li a img {
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.contact-logo {
+  padding-left: 0px;
+}
+
+li a:hover {
+  border-bottom: 4px solid yellow;
+}
+
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
   .nav-links {
-    display: flex;
-    align-items: center;
-  }
-  
-  .nav-links ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-links li {
-    margin-right: 50px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-    font-weight: 600;
-    border-bottom: 2px solid transparent;
-    transition: border-bottom 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    border-bottom: 4px solid yellow;
-  }
-  
-  .contact-logo ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .logo img {
-    width: 45px;
-    padding-left: 20px;
-    float: left;
-  }
-
-  
-  li a img {
-    width: 27px;
-    height: 27px;
-    margin-right: 20px;
-    cursor: pointer;
-  }
-
-  .contact-logo{
-    padding-left: 0px;
-  }
-
-  li a :hover{
-    border-bottom: 4px solid yellow;
-  }
-  
-
-  /* Media Query for Small Screens */
-  @media screen and (max-width: 768px) {
-    .nav-links {
     display: none;
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 60px; 
+    top: 60px;
     right: 0;
     width: 100%;
-    }
-
-    .nav-dropdown {
-      display: none;
-    }
-  
-    .show-mobile-dropdown {
-      display: block;
-    }
-  
-    .nav-links.show {
-      display: flex;
-    }
-    .nav-links li {
-        margin: 10px 0; /* Add some vertical spacing between the links */
-      }
-
-      .nav-links a {
-        text-align: center; /* Center the links in the dropdown */
-        display: block; /* Display links as block elements to occupy full width */
-        padding: 10px;
-        border-bottom: 2px solid transparent;
-        transition: border-bottom 0.3s ease;
-      }
-
-    .contact-logo img {
-      display: block;
-    }
-    /* .burger { */
-      /* cursor: pointer;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 24px;
-    }
-  
-    .burger div {
-      width: 24px;
-      height: 3px;
-      background-color: #fff;
-      transition: all 0.3s linear;
-    }
-    
-  
-    .burger .active:nth-child(1) {
-      transform: rotate(-45deg) translate(-5px, 6px);
-    }
-  
-    .burger .active:nth-child(2) {
-      opacity: 0;
-    } */
-  
-    /* .burger .active:nth-child(3) {
-      transform: rotate(45deg) translate(-5px, -6px);
-    } */
   }
-  
+
+  .nav-dropdown {
+    display: none;
+  }
+
+  .show-mobile-dropdown {
+    display: block;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+   
+  }
+
+  .nav-links a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+
+  .contact-logo img {
+    display: block;
+  }
+}
