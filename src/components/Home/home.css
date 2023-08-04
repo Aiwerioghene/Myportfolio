@@ -18,3 +18,19 @@ body{
     margin-left: 6rem;
     
 }   
+
+
+@media screen and (max-width: 768px) {
+    .introduction-p{
+        margin-left: 0rem;
+        
+    }   
+
+    .introduction{
+        position: absolute;
+        top:50%;
+        left:30%;
+        transition: -50% -30%;
+        padding-bottom: 3px;
+    }
+}
