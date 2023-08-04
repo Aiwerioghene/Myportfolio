@@ -1,38 +1,60 @@
 /* Navbar.css */
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
   }
   
-  .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+  .nav-links {
+    display: flex;
+    align-items: center;
   }
   
   .nav-links ul {
     list-style: none;
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
   }
   
   .nav-links li {
-    margin-right: 1rem;
+    margin-right: 20px;
   }
   
   .nav-links a {
-    color: #fff;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
   }
   
   .nav-links a:hover {
-    background-color: #555;
+    border-bottom: 4px solid yellow;
   }
+  
+  .contact-logo ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo img{
+    width: 30px;
+  }
+  
+  li a img {
+    width: 35px;
+    height: 35px;
+  }
+  
+
   
   /* Media Query for Small Screens */
   @media screen and (max-width: 768px) {
@@ -45,7 +67,14 @@
     .nav-links.show {
       display: flex;
     }
+
+    .nav-links a{
+        display: none;
+    }
   
+    .contact-logo img {
+        display: block;
+    }
     .burger {
       cursor: pointer;
       display: flex;
