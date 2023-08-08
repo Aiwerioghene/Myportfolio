@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/daysuwaa/Myportfolio/static/css/main.442c769c.css",
+    "main.js": "/daysuwaa/Myportfolio/static/js/main.96e8777d.js",
+    "static/media/vans.png": "/daysuwaa/Myportfolio/static/media/vans.9745d4993f63c7a66807.png",
+    "static/media/Uber.png": "/daysuwaa/Myportfolio/static/media/Uber.f47810ad6629ca6f882e.png",
+    "static/media/flickr.png": "/daysuwaa/Myportfolio/static/media/flickr.385a7175d6ca5e7af82a.png",
+    "static/media/react-icon.png": "/daysuwaa/Myportfolio/static/media/react-icon.8a6fc0a24a800d1e0f4a.png",
+    "static/media/Resume_Adesuwa.pdf": "/daysuwaa/Myportfolio/static/media/Resume_Adesuwa.0354f3a54bc599834e85.pdf",
+    "static/media/background.jpeg": "/daysuwaa/Myportfolio/static/media/background.a77ea26d78daf4ce7f70.jpeg",
+    "static/media/me.jpg": "/daysuwaa/Myportfolio/static/media/me.be9aa509530f2009e1d1.jpg",
+    "static/media/Bootstrap_logo.png": "/daysuwaa/Myportfolio/static/media/Bootstrap_logo.61010316b3551e930f66.png",
+    "static/media/html.png": "/daysuwaa/Myportfolio/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/js.webp": "/daysuwaa/Myportfolio/static/media/js.7f1756bf6944ad6c973d.webp",
+    "static/media/css.webp": "/daysuwaa/Myportfolio/static/media/css.e6defb3978a542a56b65.webp",
+    "static/media/tailwind.webp": "/daysuwaa/Myportfolio/static/media/tailwind.6ce08e37a14ea6cd4b63.webp",
+    "index.html": "/daysuwaa/Myportfolio/index.html",
+    "main.442c769c.css.map": "/daysuwaa/Myportfolio/static/css/main.442c769c.css.map",
+    "main.96e8777d.js.map": "/daysuwaa/Myportfolio/static/js/main.96e8777d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.442c769c.css",
+    "static/js/main.96e8777d.js"
+  ]
+}
