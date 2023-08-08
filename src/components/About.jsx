@@ -7,7 +7,7 @@ const About = () => {
       <Typed
         className='md:text-4xl lg:text-5xl sm:text-3xl text-xl font-bold md:pl-4 pl-2 text-white text-center'
         strings={[
-          'Aiwerioghene Adesuwa ' ,
+          'Aiwerioghene Adesuwa' ,
           'I am a Front End Developer 👩🏽‍💻',
           'Welcome to my Portfolio! 🥰'
         ]} 
