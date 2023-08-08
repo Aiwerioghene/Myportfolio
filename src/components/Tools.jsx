@@ -8,8 +8,8 @@ import Bootstrap from '../assest/Bootstrap_logo.png';
 
 const Tools = () => {
   return (
-    <div className='font-bold text-white mt-[600px] text-3xl ml-4'>
-      Tools
+    <div className='font-bold text-white mt-[600px] text-3xl ml-4 '>
+      Tools ⛓️
       <div className='flex justify-between my-3'>
         <img src={Html} alt='HTML' className='w-[50px] ' />
         <img src={Css} alt='CSS' className='w-[50px]' />
