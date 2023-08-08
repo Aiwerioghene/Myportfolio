@@ -5,10 +5,12 @@ import Flickr from '../assest/flickr.png';
 
 const Projects = () => {
   return (
-    <div className='w-full py-[10rem] px-4 bg-black'>
+    <div className='w-full py-[10rem] px-4 bg-white'>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
-        <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-            <img className='w-120 mx-auto mt-[3rem] bg-white' src={Vans}alt=''/>
+
+
+        <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+            <img className='w-120 mx-auto mt-[3rem]' src={Vans}alt=''/>
             <p className='text-center text-4xl font-bold'>Vans Clone</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
@@ -26,8 +28,8 @@ const Projects = () => {
             </div>
             <button className='bg-black text-white  rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Uber-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div>
-        <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-            <img className='w-120 mx-auto mt-[3rem] bg-white' src={Flickr}alt=''/>
+        <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
+            <img className='w-120 mx-auto mt-[3rem]' src={Flickr}alt=''/>
             <p className='text-center text-4xl font-bold'>Flickr</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
