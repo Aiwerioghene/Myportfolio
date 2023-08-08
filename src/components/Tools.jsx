@@ -10,7 +10,7 @@ const Tools = () => {
   return (
     <div className='h-[200px]'>
     <div className='font-bold text-white  text-2xl ml-4 justify-center mt-[20px] mb-4 '>
-      <div className='hover:border-b-4 hover:border-yellow-500'> Tools ⛓️</div>
+       Tools ⛓️
       <div className='flex justify-between my-3 mt-[50px]'>
         <img src={Html} alt='HTML' className='w-[50px] ' />
         <img src={Css} alt='CSS' className='w-[50px]' />
