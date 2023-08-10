@@ -14,6 +14,9 @@ const Home = () => {
         backSpeed={100} 
         loop
       />
+     
+
+
     </div>
   );
 }
