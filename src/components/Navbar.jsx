@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Me from '../assest/me.jpg';
+// import Me from '../assest/me.jpg';
 import Resume from '../assest/Resume_Adesuwa.pdf';
 import { FaGithub } from 'react-icons/fa';
 import { FiTwitter} from 'react-icons/fi'
@@ -14,7 +14,8 @@ const Navbar = () => {
 
   return (
     <div className='flex  md:flex-row justify-between items-center h-24 max-w-[1240px] mx-auto text-white bg-black'>
-      <img src={Me} className='w-[70px]  md:w-[80px] pl-6' alt='logo' />
+      {/* <img src={Me} className='w-[70px]  md:w-[80px] pl-6' alt='logo' /> */}
+      <h1 className="font-customFont text-4xl pl-4">Daysuwaa</h1>
       <div className='flex items-center space-x-6 p-2'>
         <ul className='hidden md:flex space x-4 '>
         <li>
