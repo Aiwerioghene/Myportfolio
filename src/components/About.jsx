@@ -3,16 +3,31 @@ import Computer from '../assest/computer.JPG';
 
 const About = () => {
   return (
-    <div className="pt-7">
-      <h1 className="underline text-3xl font-bold bg-white pl-[3rem]">About Me.</h1>
+    <div className="">
+      <h1 className="underline text-3xl font-bold bg-white pl-[3rem] pt-8">About Me.</h1>
       <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1 bg-white p-[3rem]">
         <div className="p-4">
           <p>
-            My name is <b>Aiwerioghene Adesuwa</b>, I am a passionate Front-End Developer with a keen eye for detail and a love for crafting beautiful and engaging user interfaces. I specialize in creating responsive, user-friendly websites that provide seamless experiences across devices. I enjoy turning design concepts into interactive web applications. Let's collaborate to bring your ideas to life and create web experiences that leave a lasting impression!
+          I'm <span className='text-blue-700 font-bold'>Aiwerioghene Adesuwa</span>, a passionate <span className='text-blue-700 font-bold'>Front-End Developer</span>. I'm dedicated to crafting user interfaces that truly connect with people. 
+          The world of coding excites me, offering endless possibilities. 
+          I believe small details create big impacts, so I pour my heart into perfecting user experiences.
+          <br></br>
+          <br></br>
+
+          Specializing in front-end development, I create <span className='text-blue-700 font-bold'>delightful websites</span> that engage users. Whether sleek e-commerce platforms or interactive storytelling sites, 
+          I transform designs into <span className='text-blue-700 font-bold'>responsive web apps</span>. Creating seamless, enjoyable user experiences across devices is my core skill.
+          <br></br>
+          <br></br>
+
+          But beyond the technical aspects, what truly fuels my passion for coding is the opportunity to collaborate. I firmly believe that the best results are achieved through teamwork and shared vision. 
+          <br></br>
+          <br></br>
+          I am excited to collaborate with you, to listen to your ideas, understand your goals, and work together to bring them to life. Let's embark on this journey together, and together, let's create web experiences that leave an indelible mark on users!
+
           </p>
         </div>
         <div className="p-4 flex justify-center items-center">
-          <img src={Computer} alt='img' className='w-full h-[300px] md:w-[390px]' />
+          <img src={Computer} alt='img' className='lg:w-[440px] h-[300px] md:w-[390px] sm:w-[490px] sm:h-[390px]' />
         </div>
       </div>
     </div>
