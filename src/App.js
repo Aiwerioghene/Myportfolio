@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Tools from './components/Tools';
 import Projects from './components/Projects';
+import Copy from './components/Copy';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Tools/>
       <Projects/>
+      <Copy/>
       </>
 
   );
