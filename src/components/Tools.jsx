@@ -9,15 +9,15 @@ import Bootstrap from '../assest/Bootstrap_logo.png';
 const Tools = () => {
   return (
     <div className='h-[200px]'>
-    <div className='font-bold text-white  text-2xl ml-4 justify-center mt-[20px] mb-4 '>
-       Tools ⛓️
-      <div className='flex justify-between my-3 mt-[50px]'>
-        <img src={Html} alt='HTML' className='w-[50px] ' />
-        <img src={Css} alt='CSS' className='w-[50px]' />
-        <img src={Js} alt='JavaScript' className='w-[50px] ' />
-        <img src={Reacti} alt='React' className='w-[50px]' />
-        <img src={Tail} alt='Tailwind CSS' className='w-[50px]' />
-        <img src={Bootstrap} alt='Bootstrap' className='w-[50px]' />
+    <div className='font-bold text-black  text-3xl underline ml-4 justify-center mt-[20px] mb-4 '>
+       Tools⛓️:
+      <div className='flex justify-between my-3 mt-[35px]'>
+        <img src={Html} alt='HTML' className='w-[35px] ' />
+        <img src={Css} alt='CSS' className='w-[35px]' />
+        <img src={Js} alt='JavaScript' className='w-[35px] ' />
+        <img src={Reacti} alt='React' className='w-[35px]' />
+        <img src={Tail} alt='Tailwind CSS' className='w-[35px]' />
+        <img src={Bootstrap} alt='Bootstrap' className='w-[35px]' />
       </div>
     </div>
     </div>

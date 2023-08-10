@@ -8,8 +8,7 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1 bg-white p-[3rem]">
         <div className="p-4">
           <p>
-          I'm <span className='text-blue-700 font-bold'>Aiwerioghene Adesuwa</span>, a passionate <span className='text-blue-700 font-bold'>Front-End Developer</span>. I'm dedicated to crafting user interfaces that truly connect with people. 
-          The world of coding excites me, offering endless possibilities. 
+          I'm <span className='text-blue-700 font-bold'>Aiwerioghene Adesuwa</span>, a passionate <span className='text-blue-700 font-bold'>Front-End Developer</span>. I'm dedicated to crafting user interfaces that truly connect with people.  
           I believe small details create big impacts, so I pour my heart into perfecting user experiences.
           <br></br>
           <br></br>
@@ -19,7 +18,7 @@ const About = () => {
           <br></br>
           <br></br>
 
-          But beyond the technical aspects, what truly fuels my passion for coding is the opportunity to collaborate. I firmly believe that the best results are achieved through teamwork and shared vision. 
+         I firmly believe that the best results are achieved through teamwork and shared vision. 
           <br></br>
           <br></br>
           I am excited to collaborate with you, to listen to your ideas, understand your goals, and work together to bring them to life. Let's embark on this journey together, and together, let's create web experiences that leave an indelible mark on users!
@@ -27,7 +26,7 @@ const About = () => {
           </p>
         </div>
         <div className="p-4 flex justify-center items-center">
-          <img src={Computer} alt='img' className='lg:w-[440px] h-[300px] md:w-[390px] sm:w-[490px] sm:h-[390px]' />
+          <img src={Computer} alt='img' className='lg:w-[440px] h-[300px] md:w-[390px] sm:w-[490px] sm:h-[390px] w-full' />
         </div>
       </div>
     </div>

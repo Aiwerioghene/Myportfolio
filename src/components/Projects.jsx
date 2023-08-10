@@ -6,8 +6,8 @@ import Asos from '../assest/asos.png';
 
 const Projects = () => {
   return (
-    <div className='w-full py-[10rem] px-4 bg-white'>
-        <h1 className='font-bold text-black text-3xl mb-5 py-2 leading-8  '>Projects📁:</h1>
+    <div className='w-full pt-7 px-4 bg-white'>
+        <h1 className='font-bold text-black text-3xl mb-5 py-2 leading-8  underline'>Projects📁:</h1>
         <p className='py-2 leading-8 text-center'>Below are a selection of completed projects I've meticulously crafted from the ground up. They have <span className='text-blue-700 font-bold'> attractive designs and easy-to-use layouts.</span> The code is well-organized, making it <span className='text-blue-700 font-bold'>simple to maintain and reuse.</span> These projects are to showcase my commitment to <span className='text-blue-700 font-bold'>responsive design.</span></p>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
 
