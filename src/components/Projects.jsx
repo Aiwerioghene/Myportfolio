@@ -56,7 +56,7 @@ const Projects = () => {
         </div>
         <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem] bg-transparent ' src={LockLingo}alt=''/>
-            <p className='text-center text2xl font-bold'>Password Generator - Lock Lingo</p>
+            <p className='text-center text-2xl font-bold'>Password Generator - Lock Lingo</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>React JS and Tailwind CSS</p>
