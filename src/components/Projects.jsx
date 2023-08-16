@@ -14,7 +14,7 @@ const Projects = () => {
 
         <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem] ' src={Vans}alt=''/>
-            <p className='text-center text-4xl font-bold'>Vans Clone</p>
+            <p className='text-center text-2xl font-bold'>Vans Clone</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>HTML, CSS, Bootstrap</p>   
@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
         <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem] bg-transparent ' src={Uber}alt=''/>
-            <p className='text-center text-4xl font-bold'>Uber Clone</p>
+            <p className='text-center text-2xl font-bold'>Uber Clone</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>HTML, CSS, Bootstrap</p>
@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
         <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem]' src={Flickr}alt=''/>
-            <p className='text-center text-4xl font-bold'>Flickr</p>
+            <p className='text-center text-2xl font-bold'>Flickr</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>HTML, CSS, Bootstrap</p>
@@ -47,7 +47,7 @@ const Projects = () => {
 
     <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem] ' src={Asos}alt=''/>
-            <p className='text-center text-4xl font-bold'>ASOS Clone</p>
+            <p className='text-center text-2xl font-bold'>ASOS Clone</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>React js and Tailwind Css</p>   
@@ -56,13 +56,13 @@ const Projects = () => {
         </div>
         <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem] bg-transparent ' src={LockLingo}alt=''/>
-            <p className='text-center text-4xl font-bold'>Password Generator - Lock Lingo</p>
+            <p className='text-center text2xl font-bold'>Password Generator - Lock Lingo</p>
             <div className='text-ceneter font-medium'>
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>React JS and Tailwind CSS</p>
                
             </div>
-            <button className='bg-black text-white  rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Uber-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
+            <button className='bg-black text-white  rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Random-Password-Generator/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div>
         
         {/* <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
