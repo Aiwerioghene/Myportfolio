@@ -8,7 +8,7 @@ import LockLingo from '../assest/locklingo.png';
 const Projects = () => {
   return (
     <div className='w-full pt-7 px-4 bg-white'>
-        <h1 className='font-bold text-black text-3xl mb-5 py-2 leading-8  underline'>Projects📁:</h1>
+        <h1 className='font-bold text-black text-2xl mb-5 py-2 leading-8 md:text-3xl sm:text-3xl lg:text-3xl  underline'>Projects📁:</h1>
         <p className='py-2 leading-8 text-center'>Below are a selection of completed projects I've meticulously crafted from the ground up. They have <span className='text-blue-700 font-bold'> attractive designs and easy-to-use layouts.</span> The code is well-organized, making it <span className='text-blue-700 font-bold'>simple to maintain and reuse.</span> These projects are to showcase my commitment to <span className='text-blue-700 font-bold'>responsive design.</span></p>
     <div className='max-w-[1240px] mx-auto grid md:grid-cols-3 gap-8'>
 
@@ -19,7 +19,7 @@ const Projects = () => {
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>HTML, CSS, Bootstrap</p>   
             </div>
-            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Vans-Website-Clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
+            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3 hover:bg-gray-800 '><a href='https://daysuwaa.github.io/Vans-Website-Clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div>
         <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem] bg-transparent ' src={Uber}alt=''/>
@@ -29,7 +29,7 @@ const Projects = () => {
                 <p className='py-2 border-b mx-8'>HTML, CSS, Bootstrap</p>
                
             </div>
-            <button className='bg-black text-white  rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Uber-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
+            <button className='bg-black text-white  rounded-md font-medium my-6 mx-auto px-6 py-3  hover:bg-gray-800'><a href='https://daysuwaa.github.io/Uber-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div>
         <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem]' src={Flickr}alt=''/>
@@ -39,7 +39,7 @@ const Projects = () => {
                 <p className='py-2 border-b mx-8'>HTML, CSS, Bootstrap</p>
                
             </div>
-            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Flickr-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
+            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3  hover:bg-gray-800'><a href='https://daysuwaa.github.io/Flickr-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div>
     
 
@@ -52,7 +52,7 @@ const Projects = () => {
                 <p className='py-2 border-b mx-8 mt-8'>Technologies</p>
                 <p className='py-2 border-b mx-8'>React js and Tailwind Css</p>   
             </div>
-            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Asos-Clone-/' target='_blank' rel="noreferrer">Check it out!</a></button>
+            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3  hover:bg-gray-800'><a href='https://daysuwaa.github.io/Asos-Clone-/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div>
         <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
             <img className='w-120 mx-auto mt-[3rem] bg-transparent ' src={LockLingo}alt=''/>
@@ -62,7 +62,7 @@ const Projects = () => {
                 <p className='py-2 border-b mx-8'>React JS and Tailwind CSS</p>
                
             </div>
-            <button className='bg-black text-white  rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Random-Password-Generator/' target='_blank' rel="noreferrer">Check it out!</a></button>
+            <button className='bg-black text-white  rounded-md font-medium my-6 mx-auto px-6 py-3  hover:bg-gray-800'><a href='https://daysuwaa.github.io/Random-Password-Generator/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div>
         
         {/* <div className='w-full shadow-xl  bg-gray-100 flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
@@ -73,7 +73,7 @@ const Projects = () => {
                 <p className='py-2 border-b mx-8'>HTML, CSS, Bootstrap</p>
                
             </div>
-            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3'><a href='https://daysuwaa.github.io/Flickr-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
+            <button className='bg-black text-white rounded-md font-medium my-6 mx-auto px-6 py-3  hover:bg-gray-800'><a href='https://daysuwaa.github.io/Flickr-clone/' target='_blank' rel="noreferrer">Check it out!</a></button>
         </div> */}
 
     </div>
