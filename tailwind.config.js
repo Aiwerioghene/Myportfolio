@@ -6,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         customFont: ['Dancing Script', 'cursive'],
+        fontt2 : [ 'Bebas Neue', 'sans-serif']
       },
     },
   },
