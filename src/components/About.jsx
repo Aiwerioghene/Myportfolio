@@ -27,7 +27,7 @@ const About = () => {
 
           </p>
         </div>
-        <div className="p-4 flex justify-center items-center">
+        <div className="p-3 flex justify-center items-center">
           <img src={Computer} alt='img' className='lg:w-[440px] h-[300px] md:w-[390px] sm:w-[490px] sm:h-[390px] w-full' />
         </div>
       </div>
