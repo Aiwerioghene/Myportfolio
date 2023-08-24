@@ -13,7 +13,7 @@ const Tools = () => {
     <div className='h-[200px] pt-8'>
       <div className='bg-black lg:pl-[4rem] pl-3'>
     <div className='font-bold text-gray-300 text-2xl  sm:text-3xl md: text:3xl lg:text-3xl font-fontt2 ml-4 justify-center  mb-4 tracking-wider'>
-       STACK 🛠️ :
+     TOOLS ⚒️ :
       <div className='flex justify-between my-3 mt-[35px] text-center'>
         <img src={Html} alt='HTML' className='w-[35px]  ' />
         <img src={Css} alt='CSS' className='w-[35px]' />
