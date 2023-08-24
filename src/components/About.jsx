@@ -5,9 +5,10 @@ const About = () => {
   return (
     
     <div className="bg-black">
-      <h1 className="font-fontt2 tracking-wider text-gray-300 text-3xl font-bold pl-[3rem] pt-8">About Me.</h1>
-      <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1  p-[3rem]">
-        <div className="p-4">
+      <h4 className='text-sm  tracking-widest pl-[4rem] font-lighter uppercase'>Introduction</h4>
+      <h1 className="font-fontt2 tracking-wider text-gray-300 text-5xl font-bold pl-[4rem] pt-5">About Me.</h1>
+      <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1  p-[3rem] ">
+        <div className="px-4 pb-1">
           <p>
           I'm <span className='text-blue-700 font-bold'>Aiwerioghene Adesuwa</span>, a passionate <span className='text-blue-700 font-bold'>Front-End Developer</span>. I'm dedicated to crafting user interfaces that truly connect with people.  
           I believe small details create big impacts, so I pour my heart into perfecting user experiences.
