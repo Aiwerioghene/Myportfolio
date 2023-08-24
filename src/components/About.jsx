@@ -29,7 +29,9 @@ const About = () => {
           <img src={Computer} alt='img' className='lg:w-[440px] h-[300px] md:w-[390px] sm:w-[490px] sm:h-[390px] w-full' />
         </div>
       </div>
+      <div className='bg-white h-1'></div>
     </div>
+   
   );
 };
 
