@@ -10,7 +10,7 @@ const About = () => {
       <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1  p-[3rem] ">
         <div className="px-4 pb-1">
           <p>
-          I'm <span className='text-blue-700 font-bold'>Aiwerioghene Adesuwa</span>, a passionate <span className='text-blue-700 font-bold'>Front-End Developer</span>. I'm dedicated to crafting user interfaces that truly connect with people.  
+          Hello, I'm <span className='text-blue-700 font-bold'>Daysuwaa</span>, a passionate <span className='text-blue-700 font-bold'>Front-End Developer</span>. I'm dedicated to crafting user interfaces that truly connect with people.  
           I believe small details create big impacts, so I pour my heart into perfecting user experiences.
           <br></br>
           <br></br>
