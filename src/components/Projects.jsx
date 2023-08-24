@@ -14,7 +14,7 @@ const Projects = () => {
       <h1 className='font-bold text-gray-300 text-2xl mb-5 py-2 leading-8 md:text-3xl sm:text-3xl lg:text-3xl lg:ml-[5rem] sm:ml-[1rem] ml-[1rem] md:ml-[1rem] font-fontt2 tracking-wider'>
         Projects 📁 :
       </h1>
-      <p className='pt-1 pb-5 leading-8 text-center lg:ml-[5rem] font-light text-gray-400'>
+      <p className='pt-1 pb-5 leading-8 text-center lg:ml-[5rem] font-light'>
         Below are a selection of completed projects I've meticulously crafted from the ground up.
         They have <span className='text-blue-700 font-bold'>attractive designs and easy-to-use layouts.</span> The code is well-organized, making it <span className='text-blue-700 font-bold'>simple to maintain and reuse.</span> These projects are to showcase my commitment to <span className='text-blue-700 font-bold'>responsive design.</span>
       </p>
