@@ -8,8 +8,11 @@ import Bootstrap from '../assest/Bootstrap_logo.png';
 
 const Tools = () => {
   return (
-    <div className='h-[200px] bg-white'>
-    <div className='font-bold text-black  text-2xl  sm:text-3xl md: text:3xl lg:text-3xl font-fontt2 ml-4 justify-center  mb-4 '>
+   
+
+    <div className='h-[200px] pt-2'>
+      <div className='bg-black lg:pl-[4rem] pl-3'>
+    <div className='font-bold text-gray-300 text-2xl  sm:text-3xl md: text:3xl lg:text-3xl font-fontt2 ml-4 justify-center  mb-4 '>
        Tools ⛓️ :
       <div className='flex justify-between my-3 mt-[35px] text-center'>
         <img src={Html} alt='HTML' className='w-[35px]  ' />
@@ -19,8 +22,12 @@ const Tools = () => {
         <img src={Tail} alt='Tailwind CSS' className='w-[35px]' />
         <img src={Bootstrap} alt='Bootstrap' className='w-[60px] pr-5' />
       </div>
+      
     </div>
     </div>
+    </div>
+    // </div>
+   
   );
 };
 

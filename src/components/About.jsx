@@ -3,9 +3,9 @@ import Computer from '../assest/computer.JPG';
 
 const About = () => {
   return (
-    <div className="">
-      <h1 className="underline text-3xl font-bold bg-white pl-[3rem] pt-8">About Me.</h1>
-      <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1 bg-white p-[3rem]">
+    <div className="bg-black">
+      <h1 className="underline text-3xl font-bold pl-[3rem] pt-8">About Me.</h1>
+      <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1  p-[3rem]">
         <div className="p-4">
           <p>
           I'm <span className='text-blue-700 font-bold'>Aiwerioghene Adesuwa</span>, a passionate <span className='text-blue-700 font-bold'>Front-End Developer</span>. I'm dedicated to crafting user interfaces that truly connect with people.  
