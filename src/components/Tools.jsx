@@ -8,16 +8,16 @@ import Bootstrap from '../assest/Bootstrap_logo.png';
 
 const Tools = () => {
   return (
-    <div className='h-[200px]'>
-    <div className='font-bold text-black  text-2xl  sm:text-3xl md: text:3xl lg:text-3xl underline ml-4 justify-center mt-[20px] mb-4 '>
-       Tools⛓️:
-      <div className='flex justify-between my-3 mt-[35px]'>
-        <img src={Html} alt='HTML' className='w-[35px] ' />
+    <div className='h-[200px] bg-white'>
+    <div className='font-bold text-black  text-2xl  sm:text-3xl md: text:3xl lg:text-3xl font-fontt2 ml-4 justify-center  mb-4 '>
+       Tools ⛓️ :
+      <div className='flex justify-between my-3 mt-[35px] text-center'>
+        <img src={Html} alt='HTML' className='w-[35px]  ' />
         <img src={Css} alt='CSS' className='w-[35px]' />
         <img src={Js} alt='JavaScript' className='w-[35px] ' />
         <img src={Reacti} alt='React' className='w-[35px]' />
         <img src={Tail} alt='Tailwind CSS' className='w-[35px]' />
-        <img src={Bootstrap} alt='Bootstrap' className='w-[35px]' />
+        <img src={Bootstrap} alt='Bootstrap' className='w-[60px] pr-5' />
       </div>
     </div>
     </div>
