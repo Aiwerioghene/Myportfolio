@@ -5,7 +5,8 @@ const About = () => {
   return (
     
     <div className="bg-black">
-      <h4 className='text-sm  tracking-widest pl-[4rem] font-lighter uppercase'>Introduction</h4>
+      <div className='bg-white h-1 '> </div>
+      <h4 className='text-sm  tracking-widest pl-[4rem] font-lighter uppercase pt-[2.7rem]'>Introduction</h4>
       <h1 className="font-fontt2 tracking-wider text-gray-300 text-4xl font-bold pl-[4rem] pt-5">About Me</h1>
       <div className="grid md:grid-cols-2 gap-4 sm:grid-cols-1  p-[3rem] ">
         <div className="px-4 pb-1">
