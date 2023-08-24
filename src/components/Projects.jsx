@@ -69,7 +69,7 @@ const Projects = () => {
           </a>
           <div className='text-ceneter font-medium'>
             <p className='py-2 border-b mt-2 font-light text-md'>Recreated Flickr website to improve my skills in web development and responsiveness.</p>
-            <p className='py-2 border-b mt-2'><span className='font-semibold'>Technologies:</span> <span className='font-light'>React js and Tailwind CSS</span></p>
+            <p className='py-2 border-b mt-2'><span className='font-semibold'>Technologies:</span> <span className='font-light'>HTML CSS and Bootstrap</span></p>
           </div>
           <img className='w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]' src={Flickr} alt='' />
         </div>
@@ -87,7 +87,7 @@ const Projects = () => {
           </a>
           <div className='text-ceneter font-medium'>
             <p className='py-2 border-b mt-2 font-light text-md'>Constructed an ASOS clone, replicating its user interface for learning purposes.</p>
-            <p className='py-2 border-b mt-2'><span className='font-semibold'>Technologies:</span> <span className='font-light'>HTML, CSS & Bootstrap</span></p>
+            <p className='py-2 border-b mt-2'><span className='font-semibold'>Technologies:</span> <span className='font-light'>React Js and Tailwind CSS</span></p>
           </div>
           <img className='w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]' src={Asos} alt='' />
         </div>
