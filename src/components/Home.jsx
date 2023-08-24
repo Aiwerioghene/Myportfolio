@@ -16,7 +16,7 @@ const Home = () => {
       />
      
 
-
+     <div className='bg-white h-1 mt-[3rem]'></div>
     </div>
   );
 }
