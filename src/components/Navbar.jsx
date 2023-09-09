@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className='flex  md:flex-row justify-between items-center h-[4rem] max-w-[1450px] mx-auto text-black bg-gray-300'>
       <h1 className="font-customFont text-3xl ml-5">Daysuwaa</h1>
       <div className='flex items-center space-x-6 p-2'>
-        <ul className='hidden md:flex space x-4 '>
+        <ul className='hidden md:flex space x-4 social-media-buttons'>
         <li>
             <a href='https://github.com/daysuwaa' target='_blank' rel='noreferrer'>
               <FaGithub size={25} className='mr-6  hover:text-yellow-700' />

@@ -76,10 +76,10 @@ const Projects = () => {
 
         {/* Asos */}
         <div className='w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]'>
-          <a href='https://daysuwaa.github.io/Asos-Clone-/' target='_blank' rel='noopener noreferrer' className='text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider'>
+          <a href=' https://github.com/daysuwaa/Asos-Clone-' target='_blank' rel='noopener noreferrer' className='text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider'>
             <span>ASOS Clone</span>
             <span className='flex items-center'>
-              <a href=' https://github.com/daysuwaa/Asos-Clone-' target='_blank' rel='noopener noreferrer'>
+              <a href=' https://daysuwaa.github.io/Asos-Clone-/' target='_blank' rel='noopener noreferrer'>
                 <FiLink className='mr-2' />
               </a>
               <FaGithub className='ml-2' />
