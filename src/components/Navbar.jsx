@@ -35,7 +35,7 @@ const Navbar = () => {
           </li>
           <li>
             <button className='bg-black text-white rounded-md w-[88px]  h-[35px] hover:bg-gray-500 hover:text-white'><a href={Resume} target='_blank' rel='noreferrer'>
-              Resume
+              Resumee
             </a></button>
           </li>
         </ul>
