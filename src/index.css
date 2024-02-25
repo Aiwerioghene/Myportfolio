@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color:black;
+  color: rgb(149, 149, 172);
+  
+  
+}
+
+.social-media-buttons li:hover a{
+  stroke: var(--primary-color);
+  transform: rotateY(360deg);
+  stroke-width: 1.78;
+
+}
+
