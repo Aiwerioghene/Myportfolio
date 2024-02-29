@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className="flex  md:flex-row justify-between items-center h-[4rem]  mx-auto text-black bg-gray-300">
-      <h1 className="font-customFont text-3xl ml-5">Daysuwaa</h1>
+      <h1 className=" font-fonty text-3xl ml-5">Daysuwaa!</h1>
       <div className="flex items-center space-x-3 p-2">
         <ul
           className={`md:flex items-center hidden space-x-10  social-media-buttons ${
