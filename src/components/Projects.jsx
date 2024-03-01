@@ -10,11 +10,11 @@ import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="w-full pt-7 px-4 bg-black">
-      <h1 className="font-bold text-gray-300 text-2xl mb-5 py-2 leading-8 md:text-3xl sm:text-3xl lg:text-3xl lg:ml-[5rem] sm:ml-[1rem] ml-[1rem] md:ml-[1rem] font-fontt2 tracking-wider">
+    <div className="w-full pt-7 px-9  bg-black">
+      <h1 className="font-bold text-gray-300 text-2xl mb-5 py-2 leading-8 md:text-3xl sm:text-3xl font-fontt2 tracking-wider">
         Projects 📁 :
       </h1>
-      <p className="pt-1 pb-5 leading-8 text-center lg:ml-[5rem] font-light">
+      <p className="pt-1 pb-5 leading-8 text-center font-light">
         Below are a selection of completed projects I've meticulously crafted
         from the ground up. They have{" "}
         <span className="text-blue-700 font-bold">
