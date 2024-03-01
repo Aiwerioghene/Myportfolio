@@ -4,10 +4,43 @@ import Uber from "../assest/Uber.png";
 import Flickr from "../assest/flickr.png";
 import Asos from "../assest/asos.png";
 import LockLingo from "../assest/locklingo.png";
+import Bank from "../assest/Bank.png";
 import Deploy from "../assest/deplo.png";
 import { FiLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 
+const ProjectNames = ({ link, name, repolink, text, technology, images }) => {
+  return (
+    <div className="w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]">
+      <a
+        href={repolink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider"
+      >
+        <span>{name}</span>
+        <span className="flex items-center">
+          <a href={link} target="_blank" rel="noopener noreferrer">
+            <FaGithub className="mr-2" />
+          </a>
+          <FiLink className="ml-2" />
+        </span>
+      </a>
+      <div className="text-ceneter font-medium">
+        <p className="py-2 border-b mt-2 font-light text-md">{text}</p>
+        <p className="py-2 border-b mt-2">
+          <span className="font-semibold">Technologies</span>{" "}
+          <span className="font-light">{technology}</span>
+        </p>
+      </div>
+      <img
+        className="w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]"
+        src={images}
+        alt="imagez"
+      />
+    </div>
+  );
+};
 const Projects = () => {
   return (
     <div className="w-full pt-7 px-9  bg-black">
@@ -29,226 +62,73 @@ const Projects = () => {
       </p>
       <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Vans */}
-        <div className="w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]">
-          <a
-            href="https://github.com/daysuwaa/Vans-Website-Clone"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider"
-          >
-            <span>Vans Clone</span>
-            <span className="flex items-center">
-              <a
-                href="https://daysuwaa.github.io/Vans-Website-Clone/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLink className="mr-2" />
-              </a>
-              <FaGithub className="ml-2" />
-            </span>
-          </a>
-          <div className="text-ceneter font-medium">
-            <p className="py-2 border-b mt-2 font-light text-md">
-              Replicated the Vans site, duplicating its user interface for
-              self-improvement purposes.
-            </p>
-            <p className="py-2 border-b mt-2">
-              <span className="font-semibold">Technologies:</span>{" "}
-              <span className="font-light">HTML, CSS & Bootstrap</span>
-            </p>
-          </div>
-          <img
-            className="w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]"
-            src={Vans}
-            alt=""
-          />
-        </div>
+        <ProjectNames
+          link="https://github.com/daysuwaa/Vans-Website-Clone"
+          name="Vans Clone"
+          repolink="https://daysuwaa.github.io/Vans-Website-Clone/"
+          text="Replicated the Vans site, duplicating its user interface for self-improvement purposes."
+          technology="HTML, CSS & Bootstrap"
+          images={Vans}
+        />
 
         {/* Uber */}
-        <div className="w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]">
-          <a
-            href=" https://github.com/daysuwaa/Uber-clone"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider"
-          >
-            <span>Uber Clone</span>
-            <span className="flex items-center">
-              <a
-                href="https://daysuwaa.github.io/Uber-clone/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLink className="mr-2" />
-              </a>
-              <FaGithub className="ml-2" />
-            </span>
-          </a>
-          <div className="text-ceneter font-medium">
-            <p className="py-2 border-b mt-2 font-light text-md">
-              Built an Uber clone, replicating its e-commerce functionality for
-              practice.
-            </p>
-            <p className="py-2 border-b mt-2">
-              <span className="font-semibold">Technologies:</span>{" "}
-              <span className="font-light">HTML, CSS & Bootstrap</span>
-            </p>
-          </div>
-          <img
-            className="w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]"
-            src={Uber}
-            alt=""
-          />
-        </div>
+        <ProjectNames
+          link="https://github.com/daysuwaa/Uber-clone"
+          name="Uber Clone"
+          repolink="https://daysuwaa.github.io/Uber-clone/"
+          text="Built an Uber clone, replicating its e-commerce functionality for practice."
+          technology="HTML, CSS & Bootstrap"
+          images={Uber}
+        />
 
         {/* Flickr */}
-        <div className="w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]">
-          <a
-            href="https://github.com/daysuwaa/Flickr-clone"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider"
-          >
-            <span>Flickr</span>
-            <span className="flex items-center">
-              <a
-                href="https://daysuwaa.github.io/Flickr-clone/ "
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLink className="mr-2" />
-              </a>
-              <FaGithub className="ml-2" />
-            </span>
-          </a>
-          <div className="text-ceneter font-medium">
-            <p className="py-2 border-b mt-2 font-light text-md">
-              Recreated Flickr website to improve my skills in web development
-              and responsiveness.
-            </p>
-            <p className="py-2 border-b mt-2">
-              <span className="font-semibold">Technologies:</span>{" "}
-              <span className="font-light">HTML CSS and Bootstrap</span>
-            </p>
-          </div>
-          <img
-            className="w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]"
-            src={Flickr}
-            alt=""
-          />
-        </div>
+        <ProjectNames
+          link="https://github.com/daysuwaa/Flickr-clone"
+          name="Flickr"
+          repolink="https://daysuwaa.github.io/Flickr-clone/"
+          text="Recreated Flickr website to improve my skills in web development and responsiveness."
+          technology="HTML, CSS & Bootstrap"
+          images={Flickr}
+        />
 
         {/* Asos */}
-        <div className="w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]">
-          <a
-            href=" https://github.com/daysuwaa/Asos-Clone-"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider"
-          >
-            <span>ASOS Clone</span>
-            <span className="flex items-center">
-              <a
-                href=" https://daysuwaa.github.io/Asos-Clone-/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLink className="mr-2" />
-              </a>
-              <FaGithub className="ml-2" />
-            </span>
-          </a>
-          <div className="text-ceneter font-medium">
-            <p className="py-2 border-b mt-2 font-light text-md">
-              Constructed an ASOS clone, replicating its user interface for
-              learning purposes.
-            </p>
-            <p className="py-2 border-b mt-2">
-              <span className="font-semibold">Technologies:</span>{" "}
-              <span className="font-light">React Js and Tailwind CSS</span>
-            </p>
-          </div>
-          <img
-            className="w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]"
-            src={Asos}
-            alt=""
-          />
-        </div>
+        <ProjectNames
+          link="https://github.com/daysuwaa/Asos-Clone-"
+          name="Asos-Clone"
+          repolink="https://daysuwaa.github.io/Asos-Clone-/"
+          text="Constructed an ASOS clone, replicating its user interface for learning purposes."
+          technology="HTML, CSS & Bootstrap"
+          images={Asos}
+        />
 
         {/* LockLingo */}
-        <div className="w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]">
-          <a
-            href="https://github.com/daysuwaa/Random-Password-Generator"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider"
-          >
-            <span>LockLingo</span>
-            <span className="flex items-center">
-              <a
-                href="https://daysuwaa.github.io/Random-Password-Generator/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLink className="mr-2" />
-              </a>
-              <FaGithub className="ml-2" />
-            </span>
-          </a>
-          <div className="text-ceneter font-medium">
-            <p className="py-2 border-b mt-2 font-light text-md">
-              Developed a custom password generator that is capable of
-              generating random alphanumeric combinations.
-            </p>
-            <p className="py-2 border-b mt-2">
-              <span className="font-semibold">Technologies:</span>{" "}
-              <span className="font-light">React js and Tailwind CSS</span>
-            </p>
-          </div>
-          <img
-            className="w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]"
-            src={LockLingo}
-            alt=""
-          />
-        </div>
+        <ProjectNames
+          link="https://github.com/daysuwaa/Random-Password-Generator"
+          name="LockLingo"
+          repolink="https://daysuwaa.github.io/Random-Password-Generator/"
+          text="Developed a custom password generator that is capable of generating random alphanumeric combinations."
+          technology="React js and Tailwind CSS"
+          images={LockLingo}
+        />
 
         {/* DeployMate */}
-        <div className="w-full shadow-xl bg-gray-300 text-black flex flex-col p-4 my-4 rounded-md hover:scale-105 duration-300 lg:h-[30rem]">
-          <a
-            href="https://github.com/daysuwaa/Document"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-2xl font-bold flex justify-between items-center mt-6 font-fontt2 tracking-wider"
-          >
-            <span>DeployMate</span>
-            <span className="flex items-center">
-              <a
-                href="https://daysuwaa.github.io/Document/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FiLink className="mr-2" />
-              </a>
-              <FaGithub className="ml-2" />
-            </span>
-          </a>
-          <div className=" font-medium">
-            <p className="py-2 border-b mt-2 font-light text-md">
-              It is a well-detailed step-by-step process on how to commit to git
-              and deploy static web pages on Git.
-            </p>
-            <p className="py-2 border-b mt-2">
-              <span className="font-semibold">Technologies:</span>{" "}
-              <span className="font-light">React js and Tailwind CSS</span>
-            </p>
-          </div>
-          <img
-            className="w-120 h-[15rem] mx-auto mt-[1rem]"
-            src={Deploy}
-            alt=""
-          />
-        </div>
+        <ProjectNames
+          link="https://github.com/daysuwaa/Documen"
+          name="DeployMate"
+          repolink="https://daysuwaa.github.io/Document/"
+          text="It is a well-detailed step-by-step process on how to commit to git and deploy static web pages on Git."
+          technology="React js and Tailwind CSS"
+          images={Deploy}
+        />
+
+        <ProjectNames
+          link="https://github.com/daysuwaa/Bank-Website"
+          name="Bank-Website"
+          repolink="https://daysuwaa.github.io/Bank-Website/"
+          text="This is a website for a banking application, built using React js and Tailwind CSS."
+          technology="React js and Tailwind CSS"
+          images={Bank}
+        />
       </div>
     </div>
   );
