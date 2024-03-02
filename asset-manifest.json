@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Myportfolio/static/css/main.0ed1fe15.css",
-    "main.js": "/Myportfolio/static/js/main.44b96188.js",
+    "main.js": "/Myportfolio/static/js/main.a75e2d31.js",
     "static/media/asos.png": "/Myportfolio/static/media/asos.5aa02bc717e07b34ac0f.png",
     "static/media/vans.png": "/Myportfolio/static/media/vans.9745d4993f63c7a66807.png",
     "static/media/Uber.png": "/Myportfolio/static/media/Uber.f47810ad6629ca6f882e.png",
     "static/media/flickr.png": "/Myportfolio/static/media/flickr.385a7175d6ca5e7af82a.png",
+    "static/media/Bank.png": "/Myportfolio/static/media/Bank.c0673a3f91601d042030.png",
     "static/media/deplo.png": "/Myportfolio/static/media/deplo.7f3b1cfc727848ea8ad9.png",
     "static/media/react-icon.png": "/Myportfolio/static/media/react-icon.8a6fc0a24a800d1e0f4a.png",
     "static/media/locklingo.png": "/Myportfolio/static/media/locklingo.6283f7e8581918c90ec0.png",
@@ -18,10 +19,10 @@
     "static/media/tailwind.webp": "/Myportfolio/static/media/tailwind.6ce08e37a14ea6cd4b63.webp",
     "index.html": "/Myportfolio/index.html",
     "main.0ed1fe15.css.map": "/Myportfolio/static/css/main.0ed1fe15.css.map",
-    "main.44b96188.js.map": "/Myportfolio/static/js/main.44b96188.js.map"
+    "main.a75e2d31.js.map": "/Myportfolio/static/js/main.a75e2d31.js.map"
   },
   "entrypoints": [
     "static/css/main.0ed1fe15.css",
-    "static/js/main.44b96188.js"
+    "static/js/main.a75e2d31.js"
   ]
 }
