@@ -36,7 +36,7 @@ const ProjectNames = ({ link, name, repolink, text, technology, images }) => {
       <img
         className="w-120 mx-auto mt-[1rem] bg-transparent  h-[15rem]"
         src={images}
-        alt="imagez"
+        alt="image"
       />
     </div>
   );
